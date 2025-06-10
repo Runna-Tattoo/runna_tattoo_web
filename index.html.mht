@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Runna Tattoo</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fff; color: #333; margin: 0; }
+        header { background: #000; color: white; padding: 20px; text-align: center; }
+        nav { background: #222; overflow: hidden; text-align: center; }
+        nav a { color: white; padding: 14px 20px; text-decoration: none; display: inline-block; }
+        section { max-width: 900px; margin: auto; padding: 20px; }
+        .gallery img { width: 30%; margin: 10px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Runna Tattoo</h1>
+    <p>Diseños únicos | Resistencia, Chaco</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#galeria">Galería</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+    <h2>Bienvenidos a Runna Tattoo</h2>
+    <p>Hola, gracias por visitar mi página. Soy apasionado del arte del tatuaje y trabajo con varios estilos. Si buscas un diseño único y personalizado, estás en el lugar correcto.</p>
+</section>
+
+<section id="galeria">
+    <h2>Galería de Tatuajes</h2>
+    <div class="gallery">
+        <img src="img/tatuaje1.jpg" alt="Tatuaje 1">
+        <img src="img/tatuaje2.jpg" alt="Tatuaje 2">
+        <img src="img/tatuaje3.jpg" alt="Tatuaje 3">
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>?? Ubicación: Resistencia, Chaco – Argentina</p>
+    <p>?? WhatsApp: <a href="https://wa.me/3624864865"  target="_blank">+3624 864-865</a></p>
+    <p>?? Instagram: <a href="https://instagram.com/runna.tattoo"  target="_blank">@runna.tattoo</a></p>
+</section>
+
+</body>
+</html>
